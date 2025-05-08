@@ -6,7 +6,7 @@ function gui_plot_function
     m = uimenu(f, 'Label', 'Файл'); 
     uimenu(m, 'Label', 'Вийти', 'Callback', @(~,~) close(f)); 
  
-    % Текстові поля та вво 
+    % Текстові поля та ввод
     uicontrol(f, 'Style','text','Position',[30 350 80 20],'String','a:'); 
     a_input = uicontrol(f, 'Style','edit','Position',[120 350 80 25],'String','0'); 
  
